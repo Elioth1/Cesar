@@ -42,7 +42,7 @@ namespace cesar
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Cesar}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
